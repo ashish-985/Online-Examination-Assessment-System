@@ -1,0 +1,317 @@
+/* ================================
+   General Reset
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================================
+   Body
+================================ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e3a8a
+    );
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #1e293b;
+}
+
+
+/* ================================
+   Main Container
+================================ */
+
+.auth-container {
+    width: 100%;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ================================
+   Login / Register Card
+================================ */
+
+.auth-card {
+    width: 100%;
+    max-width: 430px;
+
+    background-color: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ================================
+   Logo
+================================ */
+
+.logo {
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+.logo-icon {
+    width: 60px;
+    height: 60px;
+
+    margin: 0 auto 12px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+}
+
+
+.logo h1 {
+    font-size: 24px;
+
+    color: #0f172a;
+
+    margin-bottom: 5px;
+}
+
+
+.logo p {
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+/* ================================
+   Login Heading
+================================ */
+
+.auth-card h2 {
+    text-align: center;
+
+    font-size: 28px;
+
+    color: #0f172a;
+
+    margin-bottom: 8px;
+}
+
+
+.subtitle {
+    text-align: center;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    margin-bottom: 25px;
+}
+
+
+/* ================================
+   Input Groups
+================================ */
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+
+.input-group label {
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-bottom: 7px;
+
+    color: #334155;
+}
+
+
+.input-group input {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+
+/* Input Focus */
+
+.input-group input:focus {
+    border-color: #2563eb;
+
+    box-shadow:
+        0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+
+/* ================================
+   Remember Me / Forgot Password
+================================ */
+
+.form-options {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 22px;
+
+    font-size: 13px;
+}
+
+
+.remember {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #475569;
+}
+
+
+.remember input {
+    accent-color: #2563eb;
+}
+
+
+.forgot {
+    color: #2563eb;
+
+    text-decoration: none;
+}
+
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+
+/* ================================
+   Login Button
+================================ */
+
+.auth-button {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.auth-button:hover {
+    background-color: #1d4ed8;
+
+    transform: translateY(-1px);
+}
+
+
+/* ================================
+   Register / Login Link
+================================ */
+
+.switch-page {
+    text-align: center;
+
+    margin-top: 22px;
+
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+.switch-page a {
+    color: #2563eb;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+
+.switch-page a:hover {
+    text-decoration: underline;
+}
+
+
+/* ================================
+   Responsive Design
+================================ */
+
+@media (max-width: 500px) {
+
+    .auth-card {
+        padding: 30px 22px;
+    }
+
+    .logo h1 {
+        font-size: 21px;
+    }
+
+    .auth-card h2 {
+        font-size: 24px;
+    }
+
+}
