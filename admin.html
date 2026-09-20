@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<header><nav class="navbar"><a href="index.html" class="logo">Online Exam</a><span class="admin-label">Admin Dashboard</span><a href="login.html" class="btn small-btn">Logout</a></nav></header>
+<main class="admin-container">
+<div class="page-heading"><div><p class="eyebrow">ADMIN PANEL</p><h1>Dashboard</h1><p>Manage examinations, questions and student results.</p></div><a href="#" class="btn">Create Exam</a></div>
+<section class="stats">
+<div class="stat"><span>Total Exams</span><strong>08</strong></div>
+<div class="stat"><span>Total Students</span><strong>156</strong></div>
+<div class="stat"><span>Total Questions</span><strong>240</strong></div>
+<div class="stat"><span>Completed Exams</span><strong>312</strong></div>
+</section>
+<section class="admin-grid">
+<article class="panel"><h2>Manage Exams</h2><p>Create, update or remove examination information.</p><a href="#" class="text-link">Manage Exams →</a></article>
+<article class="panel"><h2>Question Bank</h2><p>Organise questions and answer options for examinations.</p><a href="#" class="text-link">Manage Questions →</a></article>
+<article class="panel"><h2>Student Results</h2><p>View examination performance and result summaries.</p><a href="results.html" class="text-link">View Results →</a></article>
+</section>
+<section class="panel table-panel">
+<h2>Recent Examinations</h2>
+<table><thead><tr><th>Exam</th><th>Questions</th><th>Duration</th><th>Status</th></tr></thead>
+<tbody><tr><td>Computer Fundamentals</td><td>20</td><td>30 min</td><td><span class="badge">Active</span></td></tr>
+<tr><td>HTML & CSS</td><td>20</td><td>30 min</td><td><span class="badge">Active</span></td></tr>
+<tr><td>Programming Basics</td><td>25</td><td>40 min</td><td><span class="badge">Draft</span></td></tr></tbody></table>
+</section>
+</main>
+</body>
+</html>
