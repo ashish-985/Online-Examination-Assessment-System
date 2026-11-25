@@ -28,3 +28,14 @@ if (createExamButton) {
         alert("Demo exam added to this page. It is not saved to a server.");
     });
 }
+
+const manageExamsLink = document.getElementById("manageExamsLink");
+if (manageExamsLink) manageExamsLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    alert("Use the Create Exam button to add a sample exam row in this demo.");
+});
+const questionBankLink = document.getElementById("questionBankLink");
+if (questionBankLink) questionBankLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    alert("Question bank management needs a backend and database. It is not included in this front-end demo.");
+});
